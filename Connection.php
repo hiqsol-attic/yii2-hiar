@@ -19,9 +19,7 @@ class Connection extends Component
 {
     const EVENT_AFTER_OPEN = 'afterOpen';
 
-    public $config = [
-        'api_url'=>'sol-api.ahnames.com',
-    ];
+    public $config = [];
 
     /**
      * Tmporary auth config
